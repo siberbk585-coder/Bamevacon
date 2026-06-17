@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "ten": "An toàn tâm lý tại nhà",
+    "buoi": 7,
+    "tuan": 7,
+    "kieu_buoi": "hoat_dong_thuc_hanh",
+    "do_tuoi_ap_dung": "10-16",
+    "phien_ban": "1.0.0",
+    "nguon": "giao_trinh_khung.md · Buổi 7",
+    "ghi_chu_thang_diem": "Likert 5-1 = mức độ tự nhận, KHÔNG phải tốt/xấu trừ câu có huong='cao_la_tot'"
+  },
+  "thu_tu_khoi": [
+    "doc_phu_huynh",
+    "cau_hoi",
+    "hoat_dong",
+    "duc_ket"
+  ],
+  "doc_phu_huynh": {
+    "tom_tat": "An toàn tâm lý = bé tin rằng nói thật sẽ không bị mắng/chê. Đây là nền tảng mọi buổi khác.",
+    "luu_y": [
+      "Phản ứng ĐẦU TIÊN của ba mẹ quyết định bé có kể lần sau không",
+      "Tách 'lắng nghe' khỏi 'giải quyết' — đôi khi bé chỉ cần được nghe",
+      "Tránh: cắt lời, so sánh, phán xét, lên lớp ngay"
+    ]
+  },
+  "nhom": [
+    {
+      "ma": "A",
+      "ten": "Sở thích & thời gian tự do",
+      "icon": "🌈",
+      "mau": "#FF8A3D"
+    },
+    {
+      "ma": "B",
+      "ten": "Học tập & tư duy",
+      "icon": "📚",
+      "mau": "#4D8DFF"
+    },
+    {
+      "ma": "C",
+      "ten": "Cảm xúc & gia đình",
+      "icon": "❤️",
+      "mau": "#FF5C8A"
+    },
+    {
+      "ma": "D",
+      "ten": "Tư duy tương lai & bản thân",
+      "icon": "🚀",
+      "mau": "#9B6DFF"
+    }
+  ],
+  "chieu_phan_tich": [
+    {
+      "ma": "so_thich_that",
+      "ten": "Sở thích thật (khi không bị áp lực ngoài)"
+    },
+    {
+      "ma": "huong_noi_huong_ngoai",
+      "ten": "Hướng nội / hướng ngoại"
+    },
+    {
+      "ma": "growth_mindset",
+      "ten": "Tư duy phát triển"
+    },
+    {
+      "ma": "anh_huong_xa_hoi",
+      "ten": "Mức ảnh hưởng bởi xã hội"
+    },
+    {
+      "ma": "nhat_quan",
+      "ten": "Tính nhất quán giữa các câu"
+    },
+    {
+      "ma": "sang_tao",
+      "ten": "Sáng tạo / tự tạo niềm vui"
+    },
+    {
+      "ma": "doc_lap",
+      "ten": "Tính độc lập"
+    },
+    {
+      "ma": "tu_dieu_chinh",
+      "ten": "Tự điều chỉnh (self-regulation)"
+    },
+    {
+      "ma": "khi_chat",
+      "ten": "Khí chất / đam mê bền"
+    },
+    {
+      "ma": "learning_style",
+      "ten": "Phong cách học"
+    },
+    {
+      "ma": "peer_conformity",
+      "ten": "Theo số đông trong lớp"
+    },
+    {
+      "ma": "grit",
+      "ten": "Bền chí (grit)"
+    },
+    {
+      "ma": "giai_quyet_van_de",
+      "ten": "Phong cách giải quyết vấn đề"
+    },
+    {
+      "ma": "frustration_tolerance",
+      "ten": "Ngưỡng chịu khó chịu"
+    },
+    {
+      "ma": "dong_luc_noi_tai",
+      "ten": "Động lực nội tại"
+    },
+    {
+      "ma": "flow",
+      "ten": "Khả năng vào trạng thái dòng chảy"
+    },
+    {
+      "ma": "focus_span",
+      "ten": "Độ dài tập trung"
+    },
+    {
+      "ma": "he_thong_ho_tro",
+      "ten": "Hệ thống hỗ trợ cảm xúc"
+    },
+    {
+      "ma": "phan_ung_feedback",
+      "ten": "Cách phản ứng với góp ý"
+    },
+    {
+      "ma": "ky_nang_xa_hoi",
+      "ten": "Kỹ năng xã hội"
+    },
+    {
+      "ma": "lo_au_xa_hoi",
+      "ten": "Lo âu xã hội"
+    },
+    {
+      "ma": "psychological_safety",
+      "ten": "An toàn tâm lý trong gia đình"
+    },
+    {
+      "ma": "tu_nhan_thuc",
+      "ten": "Tự nhận thức năng lực"
+    },
+    {
+      "ma": "tu_tin",
+      "ten": "Tự tin"
+    },
+    {
+      "ma": "tuong_tuong_nghe_nghiep",
+      "ten": "Tưởng tượng nghề nghiệp"
+    },
+    {
+      "ma": "he_gia_tri",
+      "ten": "Hệ giá trị (Achievement / Autonomy / Affiliation)"
+    },
+    {
+      "ma": "self_concept",
+      "ten": "Khái niệm bản thân tương lai"
+    },
+    {
+      "ma": "y_thuc_digital",
+      "ten": "Ý thức dấu chân số"
+    },
+    {
+      "ma": "tri_tue_xa_hoi",
+      "ten": "Trí tuệ xã hội"
+    }
+  ],
+  "cau_hoi": [
+    {
+      "ma_cau": "C9",
+      "nhom": "C",
+      "chu_de": "Tự đánh giá an toàn",
+      "cau_hoi_chinh": "Con có dám nói thật với ba mẹ điều con lo/không thích không? 🏡",
+      "vi_du_goi_y": [],
+      "phan_tich_sau": "Khởi điểm an toàn tâm lý",
+      "thang_diem": {
+        "5": "Nói được hết",
+        "4": "Phần lớn",
+        "3": "Một số",
+        "2": "Ít khi",
+        "1": "Sợ, không dám"
+      },
+      "cau_hoi_tinh_huong": "Một tối con muốn kể một điều lo lắng nhưng ba mẹ đang bận. Con có nói không?",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Điểm thấp = nền tảng phát triển bị hạn chế, cần phối hợp phụ huynh.",
+      "chieu_phan_tich": [
+        "psychological_safety"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "cao_la_tot",
+        "co_tin_hieu": [
+          {
+            "loai": "diem",
+            "toan_tu": "<=",
+            "nguong": 2,
+            "co": "an_toan_tam_ly_thap",
+            "muc": "canh_bao",
+            "y_nghia": "Bé khó nói thật → ưu tiên tuyệt đối việc xây không gian an toàn"
+          }
+        ]
+      }
+    }
+  ],
+  "hoat_dong": [
+    {
+      "ma_hoat_dong": "HD7.1",
+      "nhom": "C",
+      "ten": "15 phút không màn hình",
+      "loai": "thoi_quen",
+      "muc_tieu": "Tạo thời gian cố định để bé được lắng nghe",
+      "thoi_luong_phut": 15,
+      "huong_dan": [
+        "Mỗi ngày 15' ba mẹ + bé nói chuyện, KHÔNG điện thoại",
+        "Ba mẹ chủ yếu HỎI và NGHE, không lên lớp",
+        "Để bé dẫn chủ đề"
+      ],
+      "vai_tro_phu_huynh": "Lắng nghe chủ động, phản hồi bằng câu hỏi mở, tuyệt đối không mắng khi bé kể thật",
+      "dau_ra": {
+        "kieu": "ban_ghi_hang_ngay",
+        "so_ban_ghi": 7,
+        "truong": [
+          {
+            "ma": "ngay",
+            "nhan": "Ngày",
+            "kieu_du_lieu": "date"
+          },
+          {
+            "ma": "chu_de_be_chia_se",
+            "nhan": "Điều bé chia sẻ",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "ph_da_lam_gi",
+            "nhan": "Ba mẹ đã phản hồi thế nào",
+            "kieu_du_lieu": "text"
+          }
+        ]
+      },
+      "chieu_phan_tich": [
+        "psychological_safety",
+        "he_thong_ho_tro"
+      ],
+      "ghi_chu": "Theo dõi bé có cởi mở dần qua các ngày không"
+    },
+    {
+      "ma_hoat_dong": "HD7.2",
+      "nhom": "C",
+      "ten": "Quy ước an toàn gia đình",
+      "loai": "thoa_thuan",
+      "muc_tieu": "Cam kết rõ ràng để bé an tâm nói thật",
+      "thoi_luong_phut": 15,
+      "huong_dan": [
+        "Cả nhà cùng viết 3 quy ước (vd: 'Con kể thật, ba mẹ không mắng ngay')",
+        "Dán ở nơi dễ thấy",
+        "Cùng ký tên"
+      ],
+      "vai_tro_phu_huynh": "Đề xuất quy ước ràng buộc CHÍNH MÌNH, không chỉ ràng buộc con",
+      "dau_ra": {
+        "kieu": "thoa_thuan",
+        "truong": [
+          {
+            "ma": "quy_uoc_1",
+            "nhan": "Quy ước 1",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "quy_uoc_2",
+            "nhan": "Quy ước 2",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "quy_uoc_3",
+            "nhan": "Quy ước 3",
+            "kieu_du_lieu": "text"
+          }
+        ]
+      },
+      "chieu_phan_tich": [
+        "psychological_safety"
+      ],
+      "ghi_chu": "Quy ước hiệu lực khi ba mẹ giữ trước"
+    }
+  ],
+  "duc_ket": {
+    "huong_dan": "Ba mẹ cam kết 1 thay đổi cụ thể trong cách phản ứng khi con kể chuyện",
+    "dau_ra": {
+      "truong": [
+        {
+          "ma": "ph_cam_ket",
+          "nhan": "1 thay đổi ba mẹ sẽ làm",
+          "kieu_du_lieu": "text"
+        }
+      ]
+    }
+  },
+  "cham_diem_nhom": {
+    "phuong_phap": "trung_binh_cong",
+    "loai_cau_chua_tra_loi": true,
+    "thang": "1-5",
+    "y_nghia_diem_nhom": "Độ rõ nét bé tự nhận trong nhóm, không phải xếp hạng tốt/xấu"
+  }
+}

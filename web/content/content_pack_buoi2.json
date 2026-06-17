@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "ten": "Sở thích & động cơ",
+    "buoi": 2,
+    "tuan": 2,
+    "kieu_buoi": "kham_pha_sau",
+    "do_tuoi_ap_dung": "10-16",
+    "phien_ban": "1.0.0",
+    "nguon": "giao_trinh_khung.md · Buổi 2",
+    "ghi_chu_thang_diem": "Likert 5-1 = mức độ tự nhận, KHÔNG phải tốt/xấu trừ câu có huong='cao_la_tot'"
+  },
+  "thu_tu_khoi": [
+    "doc_phu_huynh",
+    "cau_hoi",
+    "hoat_dong",
+    "duc_ket"
+  ],
+  "doc_phu_huynh": {
+    "tom_tat": "Sở thích thật là cửa ngõ của động lực và định hướng.",
+    "luu_y": [
+      "Tuyệt đối không phán xét nếu bé chọn game/điện thoại — hỏi bé thích PHẦN NÀO trong đó",
+      "Sở thích bền (>6 tháng) đáng chú ý hơn sở thích nhất thời",
+      "Để bé tự nói, ghi nguyên văn"
+    ]
+  },
+  "nhom": [
+    {
+      "ma": "A",
+      "ten": "Sở thích & thời gian tự do",
+      "icon": "🌈",
+      "mau": "#FF8A3D"
+    },
+    {
+      "ma": "B",
+      "ten": "Học tập & tư duy",
+      "icon": "📚",
+      "mau": "#4D8DFF"
+    },
+    {
+      "ma": "C",
+      "ten": "Cảm xúc & gia đình",
+      "icon": "❤️",
+      "mau": "#FF5C8A"
+    },
+    {
+      "ma": "D",
+      "ten": "Tư duy tương lai & bản thân",
+      "icon": "🚀",
+      "mau": "#9B6DFF"
+    }
+  ],
+  "chieu_phan_tich": [
+    {
+      "ma": "so_thich_that",
+      "ten": "Sở thích thật (khi không bị áp lực ngoài)"
+    },
+    {
+      "ma": "huong_noi_huong_ngoai",
+      "ten": "Hướng nội / hướng ngoại"
+    },
+    {
+      "ma": "growth_mindset",
+      "ten": "Tư duy phát triển"
+    },
+    {
+      "ma": "anh_huong_xa_hoi",
+      "ten": "Mức ảnh hưởng bởi xã hội"
+    },
+    {
+      "ma": "nhat_quan",
+      "ten": "Tính nhất quán giữa các câu"
+    },
+    {
+      "ma": "sang_tao",
+      "ten": "Sáng tạo / tự tạo niềm vui"
+    },
+    {
+      "ma": "doc_lap",
+      "ten": "Tính độc lập"
+    },
+    {
+      "ma": "tu_dieu_chinh",
+      "ten": "Tự điều chỉnh (self-regulation)"
+    },
+    {
+      "ma": "khi_chat",
+      "ten": "Khí chất / đam mê bền"
+    },
+    {
+      "ma": "learning_style",
+      "ten": "Phong cách học"
+    },
+    {
+      "ma": "peer_conformity",
+      "ten": "Theo số đông trong lớp"
+    },
+    {
+      "ma": "grit",
+      "ten": "Bền chí (grit)"
+    },
+    {
+      "ma": "giai_quyet_van_de",
+      "ten": "Phong cách giải quyết vấn đề"
+    },
+    {
+      "ma": "frustration_tolerance",
+      "ten": "Ngưỡng chịu khó chịu"
+    },
+    {
+      "ma": "dong_luc_noi_tai",
+      "ten": "Động lực nội tại"
+    },
+    {
+      "ma": "flow",
+      "ten": "Khả năng vào trạng thái dòng chảy"
+    },
+    {
+      "ma": "focus_span",
+      "ten": "Độ dài tập trung"
+    },
+    {
+      "ma": "he_thong_ho_tro",
+      "ten": "Hệ thống hỗ trợ cảm xúc"
+    },
+    {
+      "ma": "phan_ung_feedback",
+      "ten": "Cách phản ứng với góp ý"
+    },
+    {
+      "ma": "ky_nang_xa_hoi",
+      "ten": "Kỹ năng xã hội"
+    },
+    {
+      "ma": "lo_au_xa_hoi",
+      "ten": "Lo âu xã hội"
+    },
+    {
+      "ma": "psychological_safety",
+      "ten": "An toàn tâm lý trong gia đình"
+    },
+    {
+      "ma": "tu_nhan_thuc",
+      "ten": "Tự nhận thức năng lực"
+    },
+    {
+      "ma": "tu_tin",
+      "ten": "Tự tin"
+    },
+    {
+      "ma": "tuong_tuong_nghe_nghiep",
+      "ten": "Tưởng tượng nghề nghiệp"
+    },
+    {
+      "ma": "he_gia_tri",
+      "ten": "Hệ giá trị (Achievement / Autonomy / Affiliation)"
+    },
+    {
+      "ma": "self_concept",
+      "ten": "Khái niệm bản thân tương lai"
+    },
+    {
+      "ma": "y_thuc_digital",
+      "ten": "Ý thức dấu chân số"
+    },
+    {
+      "ma": "tri_tue_xa_hoi",
+      "ten": "Trí tuệ xã hội"
+    }
+  ],
+  "cau_hoi": [
+    {
+      "ma_cau": "A5",
+      "nhom": "A",
+      "chu_de": "Quên thời gian",
+      "cau_hoi_chinh": "Việc gì khiến con làm mà QUÊN cả thời gian? ⏳",
+      "vi_du_goi_y": [
+        "Vẽ",
+        "Chơi game",
+        "Đọc truyện",
+        "Lắp ráp",
+        "Chơi nhạc",
+        "Thể thao"
+      ],
+      "phan_tich_sau": "Trạng thái dòng chảy (flow) = cửa sổ đam mê thật",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "Có lần nào con đang làm gì đó mà ngẩng lên thấy trời đã tối / quá giờ ăn chưa? Kể lại lần đó.",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Hoạt động gây flow là ứng viên đam mê thật. Chú ý hoạt động chủ động (tạo ra) vs thụ động (tiêu thụ).",
+      "chieu_phan_tich": [
+        "flow",
+        "dong_luc_noi_tai",
+        "so_thich_that"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": [
+          {
+            "loai": "tu_khoa",
+            "truong": "be_noi_them",
+            "tu_khoa": [
+              "không có",
+              "không biết",
+              "không nhớ"
+            ],
+            "co": "kho_xac_dinh_flow",
+            "muc": "luu_y",
+            "y_nghia": "Khó tìm hoạt động gây flow → đào sâu thêm bằng nhật ký 7 ngày"
+          }
+        ]
+      }
+    },
+    {
+      "ma_cau": "A6",
+      "nhom": "A",
+      "chu_de": "Từng thích rồi bỏ",
+      "cau_hoi_chinh": "Có thứ gì con từng rất thích rồi BỎ không? Vì sao con bỏ? 🍃",
+      "vi_du_goi_y": [
+        "Một môn thể thao",
+        "Một nhạc cụ",
+        "Một game",
+        "Một sở thích cũ"
+      ],
+      "phan_tich_sau": "Lý do bỏ = manh mối khí chất & ngưỡng kiên trì",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "Nhớ lại một thứ con từng mê. Điều gì làm con dừng lại — chán, khó quá, bận, hay lý do khác?",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Phân biệt 'bỏ vì chán tự nhiên' và 'bỏ vì gặp khó' — cái sau liên hệ với grit ở Nhóm B.",
+      "chieu_phan_tich": [
+        "khi_chat",
+        "tu_dieu_chinh",
+        "frustration_tolerance"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": [
+          {
+            "loai": "tu_khoa",
+            "truong": "tl_tinh_huong",
+            "tu_khoa": [
+              "khó quá",
+              "khó",
+              "chán nhanh",
+              "nản"
+            ],
+            "co": "bo_khi_kho",
+            "muc": "luu_y",
+            "y_nghia": "Có xu hướng bỏ khi gặp khó → đối chiếu với Nhóm B (grit)"
+          }
+        ]
+      }
+    },
+    {
+      "ma_cau": "A7",
+      "nhom": "A",
+      "chu_de": "Dạy người khác",
+      "cau_hoi_chinh": "Nếu phải dạy người khác MỘT điều con giỏi, con sẽ dạy gì? 🎓",
+      "vi_du_goi_y": [
+        "Một trò chơi",
+        "Một kỹ năng tay",
+        "Một mẹo học",
+        "Một môn thể thao"
+      ],
+      "phan_tich_sau": "Điều bé tự tin dạy = giao điểm giữa năng lực & đam mê",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "Một bạn nhỏ hơn nhờ con chỉ cho một việc. Con tự tin chỉ việc gì nhất?",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Thứ bé chọn dạy lộ ra điểm mạnh bé tự công nhận — nền tảng cho tự tin.",
+      "chieu_phan_tich": [
+        "tu_nhan_thuc",
+        "tu_tin",
+        "so_thich_that"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": [
+          {
+            "loai": "tu_khoa",
+            "truong": "be_noi_them",
+            "tu_khoa": [
+              "không biết",
+              "không giỏi gì",
+              "chẳng có gì"
+            ],
+            "co": "thieu_tu_nhan_thuc_diem_manh",
+            "muc": "canh_bao",
+            "y_nghia": "Không nhận ra điểm mạnh nào → ưu tiên xây tự tin trước"
+          }
+        ]
+      }
+    },
+    {
+      "ma_cau": "A8",
+      "nhom": "A",
+      "chu_de": "Một mình hay cùng người",
+      "cau_hoi_chinh": "Khi rảnh, con thích TỰ làm một mình hay RỦ thêm người? 👥",
+      "vi_du_goi_y": [
+        "Hầu như một mình",
+        "Vài bạn thân",
+        "Càng đông càng vui",
+        "Tuỳ việc"
+      ],
+      "phan_tich_sau": "Bối cảnh xã hội ưa thích → thiết kế hoạt động phù hợp",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "Con vừa nghĩ ra một việc thú vị muốn làm chiều nay. Con làm luôn một mình, hay nhắn rủ ai đó?",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Mô tả (không tốt/xấu): khớp hoạt động với kiểu hướng nội/hướng ngoại của bé.",
+      "chieu_phan_tich": [
+        "huong_noi_huong_ngoai",
+        "ky_nang_xa_hoi"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": []
+      }
+    }
+  ],
+  "hoat_dong": [
+    {
+      "ma_hoat_dong": "HD2.1",
+      "nhom": "A",
+      "ten": "Nhật ký 7 ngày sở thích",
+      "loai": "nhat_ky",
+      "muc_tieu": "Quan sát sở thích thật của bé khi không bị nhắc nhở",
+      "thoi_luong_phut": 15,
+      "huong_dan": [
+        "Cuối mỗi ngày, bé tự ghi: hôm nay khi rảnh con đã làm gì",
+        "Bé chọn cảm xúc bằng 1–3 emoji",
+        "Phụ huynh KHÔNG can thiệp, KHÔNG nhắc trong suốt tuần",
+        "Cuối tuần hai bên cùng đọc lại, khoanh việc lặp lại & khiến bé vui nhất"
+      ],
+      "vai_tro_phu_huynh": "Quan sát thầm lặng, chỉ cùng nhìn lại vào cuối tuần",
+      "dau_ra": {
+        "kieu": "ban_ghi_hang_ngay",
+        "so_ban_ghi": 7,
+        "truong": [
+          {
+            "ma": "ngay",
+            "nhan": "Ngày",
+            "kieu_du_lieu": "date"
+          },
+          {
+            "ma": "viec_da_lam",
+            "nhan": "Việc đã làm khi rảnh",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "cam_xuc",
+            "nhan": "Cảm xúc (emoji)",
+            "kieu_du_lieu": "emoji"
+          }
+        ]
+      },
+      "chieu_phan_tich": [
+        "so_thich_that",
+        "flow",
+        "dong_luc_noi_tai"
+      ],
+      "ghi_chu": "Tổng hợp = danh sách sở thích thật theo tần suất + cảm xúc; chọn 1 sở thích cho Buổi 3"
+    }
+  ],
+  "duc_ket": {
+    "huong_dan": "Cùng khoanh 1 sở thích để nuôi dưỡng ở Buổi 3",
+    "dau_ra": {
+      "truong": [
+        {
+          "ma": "so_thich_chon",
+          "nhan": "Sở thích được chọn",
+          "kieu_du_lieu": "text"
+        },
+        {
+          "ma": "ph_bat_ngo",
+          "nhan": "1 điều bất ngờ ba mẹ nhận ra",
+          "kieu_du_lieu": "text"
+        }
+      ]
+    }
+  },
+  "cham_diem_nhom": {
+    "phuong_phap": "trung_binh_cong",
+    "loai_cau_chua_tra_loi": true,
+    "thang": "1-5",
+    "y_nghia_diem_nhom": "Độ rõ nét bé tự nhận trong nhóm, không phải xếp hạng tốt/xấu"
+  }
+}

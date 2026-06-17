@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ba mẹ &amp; Con - Khảo sát</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#fff8f6",
+                        "secondary": "#005ac4",
+                        "surface-container-low": "#fff1eb",
+                        "surface-variant": "#f3ded5",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#feeae0",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "outline-variant": "#ddc1b3",
+                        "on-secondary": "#ffffff",
+                        "primary-fixed-dim": "#ffb68d",
+                        "on-primary-fixed-variant": "#763300",
+                        "background": "#fff8f6",
+                        "on-tertiary-fixed-variant": "#90003d",
+                        "on-tertiary-container": "#800035",
+                        "on-secondary-container": "#00275d",
+                        "surface-tint": "#9a4600",
+                        "outline": "#8a7266",
+                        "secondary-fixed": "#d8e2ff",
+                        "tertiary": "#b32053",
+                        "primary": "#9a4600",
+                        "surface-container-high": "#f9e4db",
+                        "tertiary-fixed-dim": "#ffb1c0",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-highest": "#f3ded5",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#ead6cd",
+                        "on-secondary-fixed-variant": "#004396",
+                        "tertiary-container": "#ff82a0",
+                        "inverse-primary": "#ffb68d",
+                        "on-primary-container": "#682d00",
+                        "inverse-surface": "#3a2e28",
+                        "inverse-on-surface": "#ffede5",
+                        "on-secondary-fixed": "#001a42",
+                        "on-surface": "#241914",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#4e8eff",
+                        "surface": "#fff8f6",
+                        "on-tertiary-fixed": "#3f0017",
+                        "on-primary-fixed": "#321200",
+                        "primary-container": "#ff8a3d",
+                        "tertiary-fixed": "#ffd9df",
+                        "on-background": "#241914",
+                        "primary-fixed": "#ffdbc9",
+                        "secondary-fixed-dim": "#aec6ff",
+                        "on-surface-variant": "#564338"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1.25rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-margin": "16px",
+                        "xs": "4px",
+                        "sm": "8px",
+                        "md": "16px",
+                        "xl": "32px",
+                        "base": "8px",
+                        "lg": "24px",
+                        "card-padding": "20px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Be Vietnam Pro"],
+                        "button-text": ["Quicksand"],
+                        "question-lg": ["Quicksand"],
+                        "label-caps": ["Be Vietnam Pro"],
+                        "body-lg": ["Be Vietnam Pro"],
+                        "question-md": ["Quicksand"]
+                    },
+                    "fontSize": {
+                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "button-text": ["16px", { "lineHeight": "20px", "fontWeight": "600" }],
+                        "question-lg": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "question-md": ["24px", { "lineHeight": "32px", "fontWeight": "700" }],
+                        "question-md-mobile": ["20px", { "lineHeight": "28px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: #FFFBF5; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="font-body-md text-on-surface antialiased min-h-screen flex flex-col items-center justify-start pb-24">
+<!-- Top Navigation (Mobile App Shell context) -->
+<header class="bg-surface-bright dark:bg-surface-dim shadow-[0_4px_16px_rgba(0,0,0,0.06)] flex justify-between items-center px-container-margin w-full h-16 sticky top-0 z-40">
+<button class="text-primary hover:bg-surface-container-high transition-colors p-2 rounded-full active:scale-95 duration-200">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">close</span>
+</button>
+<div class="text-question-md-mobile md:text-question-md font-question-md text-primary dark:text-primary-fixed-dim">
+            Ba mẹ &amp; Con
+        </div>
+<div class="flex gap-2 text-primary dark:text-primary-fixed-dim">
+<span class="material-symbols-outlined p-2" style="font-variation-settings: 'FILL' 0;">help_outline</span>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="w-full max-w-md px-container-margin pt-6 flex flex-col gap-lg">
+<!-- Progress Bar -->
+<div class="w-full space-y-2">
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant">
+<span>Câu 3/10</span>
+<span>30%</span>
+</div>
+<div class="w-full h-3 bg-surface-variant rounded-full overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 30%;"></div>
+</div>
+</div>
+<!-- Topic Pill -->
+<div class="flex justify-center">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 bg-tertiary-container/20 text-tertiary rounded-full font-button-text text-button-text border border-tertiary-container/30">
+<span>🌈</span>
+<span>Sở thích</span>
+</div>
+</div>
+<!-- Illustration -->
+<div class="w-full flex justify-center py-4">
+<img alt="Illustration of a happy child with a rainbow, sun, and various hobby icons like a soccer ball, headphones, paint brush, book, and music notes." class="h-48 w-auto object-contain drop-shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwqHWr5nEwrYjnnqYMmdT26z8fVtZHqG-loJCtmIVsw_CBicabCQ_DtM9WlAdEe4sBtLtyszoF-Tar-rKCfruPk80mZxwIvx0wGgfAkWPeEFtIMiBBYwNz-P-gbPgd-yd_AD5W6apgMVdTW7O36aLq-YzmTWpyiF976CCB02WZp-LpV5cGlo9ekVXiFIvOuobNRNeC67b7z34T823p5rOdhqbaYvlurzMm9dElSXy_68TpGOSUPDZqSIEcm93LkSwNYDUfFEvXRM8"/>
+</div>
+<!-- Question -->
+<div class="text-center px-2">
+<h1 class="font-question-md text-question-md md:text-question-lg font-bold text-on-surface leading-tight">
+                Con thích dành thời gian rảnh rỗi để làm gì nhất?
+            </h1>
+</div>
+<!-- Suggestion Chips (Horizontal Scroll) -->
+<div class="flex gap-3 overflow-x-auto hide-scrollbar pb-2 pt-2 -mx-container-margin px-container-margin snap-x">
+<button class="snap-start shrink-0 px-4 py-2 bg-surface-container-lowest border border-outline-variant rounded-full font-body-md text-on-surface-variant whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-variant shadow-sm">
+                Đọc sách truyện
+            </button>
+<button class="snap-start shrink-0 px-4 py-2 bg-primary-container text-on-primary-container border-transparent rounded-full font-body-md whitespace-nowrap active:scale-95 transition-transform shadow-sm font-semibold">
+                Chơi thể thao ⚽
+            </button>
+<button class="snap-start shrink-0 px-4 py-2 bg-surface-container-lowest border border-outline-variant rounded-full font-body-md text-on-surface-variant whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-variant shadow-sm">
+                Vẽ tranh 🎨
+            </button>
+<button class="snap-start shrink-0 px-4 py-2 bg-surface-container-lowest border border-outline-variant rounded-full font-body-md text-on-surface-variant whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-variant shadow-sm">
+                Nghe nhạc 🎧
+            </button>
+</div>
+<!-- Rating Selector (Vertical layout for easy tapping) -->
+<div class="bg-surface-container-lowest p-card-padding rounded-2xl shadow-[0_4px_16px_rgba(0,0,0,0.06)] flex flex-col gap-3">
+<p class="font-label-caps text-label-caps text-on-surface-variant mb-2 text-center">Mức độ yêu thích của con</p>
+<label class="relative flex items-center justify-between p-4 rounded-xl border border-outline-variant bg-surface-container-lowest hover:bg-surface-variant cursor-pointer transition-colors has-[:checked]:bg-primary-container/20 has-[:checked]:border-primary">
+<span class="font-body-lg text-body-lg text-on-surface">Rất đúng với con</span>
+<input class="w-5 h-5 text-primary border-outline focus:ring-primary" name="rating" type="radio" value="5"/>
+</label>
+<label class="relative flex items-center justify-between p-4 rounded-xl border border-outline-variant bg-surface-container-lowest hover:bg-surface-variant cursor-pointer transition-colors has-[:checked]:bg-primary-container/20 has-[:checked]:border-primary">
+<span class="font-body-lg text-body-lg text-on-surface">Khá đúng</span>
+<input class="w-5 h-5 text-primary border-outline focus:ring-primary" name="rating" type="radio" value="4"/>
+</label>
+<label class="relative flex items-center justify-between p-4 rounded-xl border border-outline-variant bg-surface-container-lowest hover:bg-surface-variant cursor-pointer transition-colors has-[:checked]:bg-primary-container/20 has-[:checked]:border-primary">
+<span class="font-body-lg text-body-lg text-on-surface">Tương đối</span>
+<input checked="" class="w-5 h-5 text-primary border-outline focus:ring-primary" name="rating" type="radio" value="3"/>
+</label>
+<label class="relative flex items-center justify-between p-4 rounded-xl border border-outline-variant bg-surface-container-lowest hover:bg-surface-variant cursor-pointer transition-colors has-[:checked]:bg-primary-container/20 has-[:checked]:border-primary">
+<span class="font-body-lg text-body-lg text-on-surface">Ít đúng</span>
+<input class="w-5 h-5 text-primary border-outline focus:ring-primary" name="rating" type="radio" value="2"/>
+</label>
+<label class="relative flex items-center justify-between p-4 rounded-xl border border-outline-variant bg-surface-container-lowest hover:bg-surface-variant cursor-pointer transition-colors has-[:checked]:bg-primary-container/20 has-[:checked]:border-primary">
+<span class="font-body-lg text-body-lg text-on-surface">Không đúng</span>
+<input class="w-5 h-5 text-primary border-outline focus:ring-primary" name="rating" type="radio" value="1"/>
+</label>
+</div>
+<!-- Note Field -->
+<div class="flex flex-col gap-2">
+<label class="font-button-text text-button-text text-on-surface" for="note">Bé nói thêm</label>
+<textarea class="w-full p-4 rounded-xl border border-outline-variant bg-surface-container-lowest text-body-lg text-on-surface focus:ring-2 focus:ring-primary focus:border-primary resize-none" id="note" placeholder="Ví dụ: Con thích đá banh với các bạn trong xóm..." rows="3"></textarea>
+</div>
+<!-- Actions -->
+<div class="flex flex-col gap-4 mt-4 pb-8">
+<button class="w-full min-h-[48px] bg-primary text-on-primary font-button-text text-button-text rounded-2xl shadow-md hover:shadow-lg active:scale-[0.98] transition-all flex items-center justify-center gap-2">
+                Tiếp tục
+                <span class="material-symbols-outlined text-xl">arrow_forward</span>
+</button>
+<button class="w-full min-h-[48px] bg-transparent text-primary font-button-text text-button-text rounded-2xl border-2 border-primary active:scale-[0.98] transition-transform flex items-center justify-center gap-2">
+                Khám phá sâu 🔍
+            </button>
+</div>
+</main>
+</body></html>

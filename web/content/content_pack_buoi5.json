@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "ten": "Vượt \"điểm khó\"",
+    "buoi": 5,
+    "tuan": 5,
+    "kieu_buoi": "hoat_dong_thuc_hanh",
+    "do_tuoi_ap_dung": "10-16",
+    "phien_ban": "1.0.0",
+    "nguon": "giao_trinh_khung.md · Buổi 5",
+    "ghi_chu_thang_diem": "Likert 5-1 = mức độ tự nhận, KHÔNG phải tốt/xấu trừ câu có huong='cao_la_tot'"
+  },
+  "thu_tu_khoi": [
+    "doc_phu_huynh",
+    "cau_hoi",
+    "hoat_dong",
+    "duc_ket"
+  ],
+  "doc_phu_huynh": {
+    "tom_tat": "Grit không phải 'cố lì' mà là biết thử nhiều cách trước khi bỏ.",
+    "luu_y": [
+      "Khen NỖ LỰC và CHIẾN LƯỢC, không khen 'thông minh'",
+      "Cho phép bé bí 5–10 phút trước khi giúp",
+      "Khó vừa sức = vùng phát triển; quá khó = nản"
+    ]
+  },
+  "nhom": [
+    {
+      "ma": "A",
+      "ten": "Sở thích & thời gian tự do",
+      "icon": "🌈",
+      "mau": "#FF8A3D"
+    },
+    {
+      "ma": "B",
+      "ten": "Học tập & tư duy",
+      "icon": "📚",
+      "mau": "#4D8DFF"
+    },
+    {
+      "ma": "C",
+      "ten": "Cảm xúc & gia đình",
+      "icon": "❤️",
+      "mau": "#FF5C8A"
+    },
+    {
+      "ma": "D",
+      "ten": "Tư duy tương lai & bản thân",
+      "icon": "🚀",
+      "mau": "#9B6DFF"
+    }
+  ],
+  "chieu_phan_tich": [
+    {
+      "ma": "so_thich_that",
+      "ten": "Sở thích thật (khi không bị áp lực ngoài)"
+    },
+    {
+      "ma": "huong_noi_huong_ngoai",
+      "ten": "Hướng nội / hướng ngoại"
+    },
+    {
+      "ma": "growth_mindset",
+      "ten": "Tư duy phát triển"
+    },
+    {
+      "ma": "anh_huong_xa_hoi",
+      "ten": "Mức ảnh hưởng bởi xã hội"
+    },
+    {
+      "ma": "nhat_quan",
+      "ten": "Tính nhất quán giữa các câu"
+    },
+    {
+      "ma": "sang_tao",
+      "ten": "Sáng tạo / tự tạo niềm vui"
+    },
+    {
+      "ma": "doc_lap",
+      "ten": "Tính độc lập"
+    },
+    {
+      "ma": "tu_dieu_chinh",
+      "ten": "Tự điều chỉnh (self-regulation)"
+    },
+    {
+      "ma": "khi_chat",
+      "ten": "Khí chất / đam mê bền"
+    },
+    {
+      "ma": "learning_style",
+      "ten": "Phong cách học"
+    },
+    {
+      "ma": "peer_conformity",
+      "ten": "Theo số đông trong lớp"
+    },
+    {
+      "ma": "grit",
+      "ten": "Bền chí (grit)"
+    },
+    {
+      "ma": "giai_quyet_van_de",
+      "ten": "Phong cách giải quyết vấn đề"
+    },
+    {
+      "ma": "frustration_tolerance",
+      "ten": "Ngưỡng chịu khó chịu"
+    },
+    {
+      "ma": "dong_luc_noi_tai",
+      "ten": "Động lực nội tại"
+    },
+    {
+      "ma": "flow",
+      "ten": "Khả năng vào trạng thái dòng chảy"
+    },
+    {
+      "ma": "focus_span",
+      "ten": "Độ dài tập trung"
+    },
+    {
+      "ma": "he_thong_ho_tro",
+      "ten": "Hệ thống hỗ trợ cảm xúc"
+    },
+    {
+      "ma": "phan_ung_feedback",
+      "ten": "Cách phản ứng với góp ý"
+    },
+    {
+      "ma": "ky_nang_xa_hoi",
+      "ten": "Kỹ năng xã hội"
+    },
+    {
+      "ma": "lo_au_xa_hoi",
+      "ten": "Lo âu xã hội"
+    },
+    {
+      "ma": "psychological_safety",
+      "ten": "An toàn tâm lý trong gia đình"
+    },
+    {
+      "ma": "tu_nhan_thuc",
+      "ten": "Tự nhận thức năng lực"
+    },
+    {
+      "ma": "tu_tin",
+      "ten": "Tự tin"
+    },
+    {
+      "ma": "tuong_tuong_nghe_nghiep",
+      "ten": "Tưởng tượng nghề nghiệp"
+    },
+    {
+      "ma": "he_gia_tri",
+      "ten": "Hệ giá trị (Achievement / Autonomy / Affiliation)"
+    },
+    {
+      "ma": "self_concept",
+      "ten": "Khái niệm bản thân tương lai"
+    },
+    {
+      "ma": "y_thuc_digital",
+      "ten": "Ý thức dấu chân số"
+    },
+    {
+      "ma": "tri_tue_xa_hoi",
+      "ten": "Trí tuệ xã hội"
+    }
+  ],
+  "cau_hoi": [
+    {
+      "ma_cau": "B9",
+      "nhom": "B",
+      "chu_de": "Tự đánh giá kiên trì",
+      "cau_hoi_chinh": "Khi gặp bài khó, con thường thử mấy cách trước khi dừng? 🧩",
+      "vi_du_goi_y": [],
+      "phan_tich_sau": "Khởi điểm để đo grit",
+      "thang_diem": {
+        "5": "Nhiều cách, kiên trì",
+        "4": "Vài cách",
+        "3": "1–2 cách",
+        "2": "Thử qua loa",
+        "1": "Bỏ gần như ngay"
+      },
+      "cau_hoi_tinh_huong": "Một bài con làm hoài chưa ra. Bình thường con thử mấy cách rồi mới dừng/hỏi?",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Càng nhiều chiến lược trước khi dừng = grit càng cao.",
+      "chieu_phan_tich": [
+        "grit",
+        "frustration_tolerance"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "cao_la_tot",
+        "co_tin_hieu": [
+          {
+            "loai": "diem",
+            "toan_tu": "<=",
+            "nguong": 2,
+            "co": "grit_thap",
+            "muc": "canh_bao",
+            "y_nghia": "Dừng rất sớm → tập trung xây quy trình 'khi bí' và khen nỗ lực"
+          }
+        ]
+      }
+    }
+  ],
+  "hoat_dong": [
+    {
+      "ma_hoat_dong": "HD5.1",
+      "nhom": "B",
+      "ten": "Thang 4 bước khi bí",
+      "loai": "ky_thuat",
+      "muc_tieu": "Trang bị quy trình thay vì bỏ cuộc",
+      "thoi_luong_phut": 20,
+      "huong_dan": [
+        "Học quy trình: 1) Đọc lại đề  2) Thử cách khác  3) Tìm ví dụ tương tự  4) Hỏi/tra (sau khi đã thử)",
+        "Áp dụng vào 1 bài khó thật",
+        "Ghi lại đã dùng bước nào, kết quả ra sao"
+      ],
+      "vai_tro_phu_huynh": "Nhắc bé tự đi qua các bước trước khi giúp; chỉ giúp ở bước 4",
+      "dau_ra": {
+        "kieu": "ban_ghi",
+        "truong": [
+          {
+            "ma": "bai_kho",
+            "nhan": "Bài khó đã thử",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "buoc_da_dung",
+            "nhan": "Các bước đã dùng",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "ket_qua",
+            "nhan": "Kết quả (tự ra / cần gợi ý / chưa ra)",
+            "kieu_du_lieu": "select"
+          },
+          {
+            "ma": "cam_xuc_sau",
+            "nhan": "Con thấy thế nào sau đó",
+            "kieu_du_lieu": "text"
+          }
+        ]
+      },
+      "chieu_phan_tich": [
+        "grit",
+        "giai_quyet_van_de"
+      ],
+      "ghi_chu": "Theo dõi số bước bé tự đi được tăng dần qua các lần"
+    },
+    {
+      "ma_hoat_dong": "HD5.2",
+      "nhom": "B",
+      "ten": "Lọ chiến thắng nhỏ",
+      "loai": "thoi_quen",
+      "muc_tieu": "Tích luỹ bằng chứng 'mình làm khó được'",
+      "thoi_luong_phut": 5,
+      "huong_dan": [
+        "Mỗi lần vượt 1 việc khó, bé ghi 1 mẩu giấy bỏ vào lọ",
+        "Cuối tuần cùng đọc lại"
+      ],
+      "vai_tro_phu_huynh": "Cùng đọc lại & ghi nhận, không so sánh với ai khác",
+      "dau_ra": {
+        "kieu": "ban_ghi",
+        "truong": [
+          {
+            "ma": "ngay",
+            "nhan": "Ngày",
+            "kieu_du_lieu": "date"
+          },
+          {
+            "ma": "chien_thang",
+            "nhan": "Việc khó đã vượt",
+            "kieu_du_lieu": "text"
+          }
+        ]
+      },
+      "chieu_phan_tich": [
+        "grit",
+        "tu_tin"
+      ],
+      "ghi_chu": "Bằng chứng cụ thể để xây tự tin"
+    }
+  ],
+  "duc_ket": {
+    "huong_dan": "Bé tự đặt 1 câu nhắc bản thân khi gặp khó",
+    "dau_ra": {
+      "truong": [
+        {
+          "ma": "quy_tac_rieng",
+          "nhan": "Câu nhắc của con khi gặp khó",
+          "kieu_du_lieu": "text"
+        },
+        {
+          "ma": "ph_ho_tro",
+          "nhan": "1 cách ba mẹ sẽ hỗ trợ",
+          "kieu_du_lieu": "text"
+        }
+      ]
+    }
+  },
+  "cham_diem_nhom": {
+    "phuong_phap": "trung_binh_cong",
+    "loai_cau_chua_tra_loi": true,
+    "thang": "1-5",
+    "y_nghia_diem_nhom": "Độ rõ nét bé tự nhận trong nhóm, không phải xếp hạng tốt/xấu"
+  }
+}

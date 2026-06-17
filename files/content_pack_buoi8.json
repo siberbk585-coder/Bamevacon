@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "ten": "Điểm mạnh & bản thân",
+    "buoi": 8,
+    "tuan": 8,
+    "kieu_buoi": "kham_pha_sau",
+    "do_tuoi_ap_dung": "10-16",
+    "phien_ban": "1.0.0",
+    "nguon": "giao_trinh_khung.md · Buổi 8",
+    "ghi_chu_thang_diem": "Likert 5-1 = mức độ tự nhận, KHÔNG phải tốt/xấu trừ câu có huong='cao_la_tot'"
+  },
+  "thu_tu_khoi": [
+    "doc_phu_huynh",
+    "cau_hoi",
+    "hoat_dong",
+    "duc_ket"
+  ],
+  "doc_phu_huynh": {
+    "tom_tat": "Điểm mạnh tự nhận ≠ điểm mạnh thực tế — nhưng self-perception vẫn rất quan trọng.",
+    "luu_y": [
+      "Ghi nhận cả điểm mạnh ngoài sách vở",
+      "Nếu bé nói 'không giỏi gì' → đừng vội phản bác, hỏi sâu",
+      "Tự tin xây từ những việc nhỏ làm được"
+    ]
+  },
+  "nhom": [
+    {
+      "ma": "A",
+      "ten": "Sở thích & thời gian tự do",
+      "icon": "🌈",
+      "mau": "#FF8A3D"
+    },
+    {
+      "ma": "B",
+      "ten": "Học tập & tư duy",
+      "icon": "📚",
+      "mau": "#4D8DFF"
+    },
+    {
+      "ma": "C",
+      "ten": "Cảm xúc & gia đình",
+      "icon": "❤️",
+      "mau": "#FF5C8A"
+    },
+    {
+      "ma": "D",
+      "ten": "Tư duy tương lai & bản thân",
+      "icon": "🚀",
+      "mau": "#9B6DFF"
+    }
+  ],
+  "chieu_phan_tich": [
+    {
+      "ma": "so_thich_that",
+      "ten": "Sở thích thật (khi không bị áp lực ngoài)"
+    },
+    {
+      "ma": "huong_noi_huong_ngoai",
+      "ten": "Hướng nội / hướng ngoại"
+    },
+    {
+      "ma": "growth_mindset",
+      "ten": "Tư duy phát triển"
+    },
+    {
+      "ma": "anh_huong_xa_hoi",
+      "ten": "Mức ảnh hưởng bởi xã hội"
+    },
+    {
+      "ma": "nhat_quan",
+      "ten": "Tính nhất quán giữa các câu"
+    },
+    {
+      "ma": "sang_tao",
+      "ten": "Sáng tạo / tự tạo niềm vui"
+    },
+    {
+      "ma": "doc_lap",
+      "ten": "Tính độc lập"
+    },
+    {
+      "ma": "tu_dieu_chinh",
+      "ten": "Tự điều chỉnh (self-regulation)"
+    },
+    {
+      "ma": "khi_chat",
+      "ten": "Khí chất / đam mê bền"
+    },
+    {
+      "ma": "learning_style",
+      "ten": "Phong cách học"
+    },
+    {
+      "ma": "peer_conformity",
+      "ten": "Theo số đông trong lớp"
+    },
+    {
+      "ma": "grit",
+      "ten": "Bền chí (grit)"
+    },
+    {
+      "ma": "giai_quyet_van_de",
+      "ten": "Phong cách giải quyết vấn đề"
+    },
+    {
+      "ma": "frustration_tolerance",
+      "ten": "Ngưỡng chịu khó chịu"
+    },
+    {
+      "ma": "dong_luc_noi_tai",
+      "ten": "Động lực nội tại"
+    },
+    {
+      "ma": "flow",
+      "ten": "Khả năng vào trạng thái dòng chảy"
+    },
+    {
+      "ma": "focus_span",
+      "ten": "Độ dài tập trung"
+    },
+    {
+      "ma": "he_thong_ho_tro",
+      "ten": "Hệ thống hỗ trợ cảm xúc"
+    },
+    {
+      "ma": "phan_ung_feedback",
+      "ten": "Cách phản ứng với góp ý"
+    },
+    {
+      "ma": "ky_nang_xa_hoi",
+      "ten": "Kỹ năng xã hội"
+    },
+    {
+      "ma": "lo_au_xa_hoi",
+      "ten": "Lo âu xã hội"
+    },
+    {
+      "ma": "psychological_safety",
+      "ten": "An toàn tâm lý trong gia đình"
+    },
+    {
+      "ma": "tu_nhan_thuc",
+      "ten": "Tự nhận thức năng lực"
+    },
+    {
+      "ma": "tu_tin",
+      "ten": "Tự tin"
+    },
+    {
+      "ma": "tuong_tuong_nghe_nghiep",
+      "ten": "Tưởng tượng nghề nghiệp"
+    },
+    {
+      "ma": "he_gia_tri",
+      "ten": "Hệ giá trị (Achievement / Autonomy / Affiliation)"
+    },
+    {
+      "ma": "self_concept",
+      "ten": "Khái niệm bản thân tương lai"
+    },
+    {
+      "ma": "y_thuc_digital",
+      "ten": "Ý thức dấu chân số"
+    },
+    {
+      "ma": "tri_tue_xa_hoi",
+      "ten": "Trí tuệ xã hội"
+    }
+  ],
+  "cau_hoi": [
+    {
+      "ma_cau": "D5",
+      "nhom": "D",
+      "chu_de": "Giỏi nhất (ngoài SGK)",
+      "cau_hoi_chinh": "Con nghĩ mình GIỎI NHẤT ở điều gì (không tính sách giáo khoa)? 💪",
+      "vi_du_goi_y": [
+        "Nhớ nhanh",
+        "Tưởng tượng",
+        "Nói chuyện",
+        "Làm tay",
+        "Thể thao",
+        "Hiểu người khác",
+        "Logic"
+      ],
+      "phan_tich_sau": "Tự nhận thức năng lực",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Self-perception về năng lực — định hướng quan trọng.",
+      "chieu_phan_tich": [
+        "tu_nhan_thuc",
+        "tu_tin"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": [
+          {
+            "loai": "tu_khoa",
+            "truong": "be_noi_them",
+            "tu_khoa": [
+              "không biết",
+              "không giỏi gì"
+            ],
+            "co": "thieu_tu_nhan_thuc_diem_manh",
+            "muc": "canh_bao",
+            "y_nghia": "Không nhận ra điểm mạnh nào → ưu tiên xây tự tin"
+          }
+        ]
+      }
+    },
+    {
+      "ma_cau": "D6",
+      "nhom": "D",
+      "chu_de": "Người khác khen gì",
+      "cau_hoi_chinh": "Người khác hay khen con điều gì? 🌟",
+      "vi_du_goi_y": [
+        "Tốt bụng",
+        "Vui tính",
+        "Chăm",
+        "Khéo tay",
+        "Thông minh",
+        "Dũng cảm"
+      ],
+      "phan_tich_sau": "Điểm mạnh qua mắt người khác",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Đối chiếu với D5 — khớp hay lệch?",
+      "chieu_phan_tich": [
+        "tu_nhan_thuc"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": []
+      }
+    },
+    {
+      "ma_cau": "D7",
+      "nhom": "D",
+      "chu_de": "Tự hào nhất",
+      "cau_hoi_chinh": "Việc gì con TỰ làm được khiến con tự hào nhất? 🏅",
+      "vi_du_goi_y": [],
+      "phan_tich_sau": "Nguồn tự tin thật của bé",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Nguồn tự tin cụ thể, có thật.",
+      "chieu_phan_tich": [
+        "tu_tin",
+        "self_concept"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": [
+          {
+            "loai": "tu_khoa",
+            "truong": "be_noi_them",
+            "tu_khoa": [
+              "không có",
+              "chẳng có"
+            ],
+            "co": "thieu_nguon_tu_tin",
+            "muc": "canh_bao",
+            "y_nghia": "Không có việc nào tự hào → tìm & ghi nhận thành tựu nhỏ"
+          }
+        ]
+      }
+    },
+    {
+      "ma_cau": "D8",
+      "nhom": "D",
+      "chu_de": "Muốn giỏi hơn",
+      "cau_hoi_chinh": "Có điều gì con muốn giỏi hơn không? Điều gì? 📈",
+      "vi_du_goi_y": [],
+      "phan_tich_sau": "Growth mindset & mục tiêu tự đặt",
+      "thang_diem": {
+        "5": "Rất đúng với con",
+        "4": "Khá đúng",
+        "3": "Tương đối",
+        "2": "Ít đúng",
+        "1": "Không đúng"
+      },
+      "cau_hoi_tinh_huong": "",
+      "cau_hoi_phu": [
+        "Tại sao con chọn như vậy?",
+        "Con nghĩ điều gì sẽ xảy ra sau đó?",
+        "Nếu là bạn thân của con, bạn ấy sẽ chọn giống hay khác?",
+        "Bố mẹ con sẽ muốn con chọn đáp án nào?",
+        "Nếu không sợ bị mắng, con sẽ chọn đáp án nào?"
+      ],
+      "luu_y_cau_phu": "Câu 5 thường tiết lộ giá trị thật vs hành vi do sợ hãi.",
+      "goi_y_phan_tich": "Có mục tiêu tự đặt = động lực phát triển.",
+      "chieu_phan_tich": [
+        "growth_mindset",
+        "dong_luc_noi_tai"
+      ],
+      "cham_diem": {
+        "trong_so": 1.0,
+        "huong": "trung_tinh",
+        "co_tin_hieu": []
+      }
+    }
+  ],
+  "hoat_dong": [
+    {
+      "ma_hoat_dong": "HD8.1",
+      "nhom": "D",
+      "ten": "Tấm gương điểm mạnh",
+      "loai": "phan_hoi",
+      "muc_tieu": "Đối chiếu bé tự thấy vs ba mẹ thấy để củng cố tự tin",
+      "thoi_luong_phut": 15,
+      "huong_dan": [
+        "Bé và ba mẹ MỖI người viết riêng 3 điểm mạnh của bé",
+        "Cùng mở ra so sánh",
+        "Khoanh điểm mạnh cả hai cùng thấy"
+      ],
+      "vai_tro_phu_huynh": "Viết cụ thể, có ví dụ; nêu cả điểm mạnh ngoài học tập",
+      "dau_ra": {
+        "kieu": "doi_chieu",
+        "truong": [
+          {
+            "ma": "be_1",
+            "nhan": "Bé tự ghi #1",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "be_2",
+            "nhan": "Bé tự ghi #2",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "be_3",
+            "nhan": "Bé tự ghi #3",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "ph_1",
+            "nhan": "Ba mẹ ghi #1",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "ph_2",
+            "nhan": "Ba mẹ ghi #2",
+            "kieu_du_lieu": "text"
+          },
+          {
+            "ma": "ph_3",
+            "nhan": "Ba mẹ ghi #3",
+            "kieu_du_lieu": "text"
+          }
+        ]
+      },
+      "chieu_phan_tich": [
+        "tu_nhan_thuc",
+        "tu_tin"
+      ],
+      "ghi_chu": "Điểm trùng = nền tảng tự tin vững nhất"
+    }
+  ],
+  "duc_ket": {
+    "huong_dan": "Chốt điểm mạnh đồng thuận & 1 việc để phát huy",
+    "dau_ra": {
+      "truong": [
+        {
+          "ma": "diem_manh_dong_thuan",
+          "nhan": "Điểm mạnh cả hai cùng thấy",
+          "kieu_du_lieu": "text"
+        },
+        {
+          "ma": "viec_phat_huy",
+          "nhan": "1 việc sẽ phát huy",
+          "kieu_du_lieu": "text"
+        }
+      ]
+    }
+  },
+  "cham_diem_nhom": {
+    "phuong_phap": "trung_binh_cong",
+    "loai_cau_chua_tra_loi": true,
+    "thang": "1-5",
+    "y_nghia_diem_nhom": "Độ rõ nét bé tự nhận trong nhóm, không phải xếp hạng tốt/xấu"
+  }
+}

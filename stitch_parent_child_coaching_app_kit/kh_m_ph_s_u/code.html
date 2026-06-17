@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Khám phá sâu - Ba mẹ &amp; Con</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#fff8f6",
+                        "secondary": "#005ac4",
+                        "surface-container-low": "#fff1eb",
+                        "surface-variant": "#f3ded5",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#feeae0",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "outline-variant": "#ddc1b3",
+                        "on-secondary": "#ffffff",
+                        "primary-fixed-dim": "#ffb68d",
+                        "on-primary-fixed-variant": "#763300",
+                        "background": "#fff8f6",
+                        "on-tertiary-fixed-variant": "#90003d",
+                        "on-tertiary-container": "#800035",
+                        "on-secondary-container": "#00275d",
+                        "surface-tint": "#9a4600",
+                        "outline": "#8a7266",
+                        "secondary-fixed": "#d8e2ff",
+                        "tertiary": "#b32053",
+                        "primary": "#9a4600",
+                        "surface-container-high": "#f9e4db",
+                        "tertiary-fixed-dim": "#ffb1c0",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-highest": "#f3ded5",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#ead6cd",
+                        "on-secondary-fixed-variant": "#004396",
+                        "tertiary-container": "#ff82a0",
+                        "inverse-primary": "#ffb68d",
+                        "on-primary-container": "#682d00",
+                        "inverse-surface": "#3a2e28",
+                        "inverse-on-surface": "#ffede5",
+                        "on-secondary-fixed": "#001a42",
+                        "on-surface": "#241914",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#4e8eff",
+                        "surface": "#fff8f6",
+                        "on-tertiary-fixed": "#3f0017",
+                        "on-primary-fixed": "#321200",
+                        "primary-container": "#ff8a3d",
+                        "tertiary-fixed": "#ffd9df",
+                        "on-background": "#241914",
+                        "primary-fixed": "#ffdbc9",
+                        "secondary-fixed-dim": "#aec6ff",
+                        "on-surface-variant": "#564338"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-margin": "16px",
+                        "xs": "4px",
+                        "sm": "8px",
+                        "md": "16px",
+                        "xl": "32px",
+                        "base": "8px",
+                        "lg": "24px",
+                        "card-padding": "20px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Be Vietnam Pro"],
+                        "button-text": ["Quicksand"],
+                        "question-lg": ["Quicksand"],
+                        "label-caps": ["Be Vietnam Pro"],
+                        "body-lg": ["Be Vietnam Pro"],
+                        "question-md": ["Quicksand"]
+                    },
+                    "fontSize": {
+                        "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "button-text": ["16px", { "lineHeight": "20px", "fontWeight": "600" }],
+                        "question-lg": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "question-md": ["24px", { "lineHeight": "32px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .chat-bubble-ai { border-bottom-left-radius: 4px; }
+        .chat-bubble-user { border-bottom-right-radius: 4px; }
+        .hide-scroll::-webkit-scrollbar { display: none; }
+        .hide-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-surface-bright text-on-surface font-body-md min-h-screen flex flex-col md:flex-row antialiased">
+<!-- TopAppBar (Mobile) -->
+<header class="md:hidden flex justify-between items-center px-container-margin w-full h-16 bg-surface-bright shadow-[0_4px_16px_rgba(0,0,0,0.06)] sticky top-0 z-40">
+<div class="flex items-center gap-sm">
+<button class="p-2 text-primary hover:bg-surface-container-high rounded-full transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">arrow_back</span>
+</button>
+<span class="text-question-md font-question-md text-primary">Ba mẹ &amp; Con</span>
+</div>
+<div class="flex items-center gap-sm">
+<button class="p-2 text-primary hover:bg-surface-container-high rounded-full transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">account_circle</span>
+</button>
+<button class="p-2 text-primary hover:bg-surface-container-high rounded-full transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">settings</span>
+</button>
+</div>
+</header>
+<!-- SideNavBar (Desktop) -->
+<nav class="hidden md:flex flex-col h-full w-72 left-0 top-0 bg-surface-container border-r border-outline-variant p-md sticky h-screen shrink-0 shadow-xl z-40">
+<div class="mb-lg px-2 flex items-center gap-sm">
+<span class="text-question-md font-question-md text-primary">Ba mẹ &amp; Con</span>
+</div>
+<div class="mb-xl flex items-center gap-md px-2">
+<img alt="Ảnh đại diện người dùng" class="w-12 h-12 rounded-full object-cover border-2 border-surface-variant" data-alt="A close-up portrait of a friendly, smiling parent in a bright, natural setting. The lighting is soft and warm, complementing the app's modern, cream-based aesthetic. They wear casual, approachable clothing, evoking a sense of safety and connection." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOuY9eIOeFxS3Ksy4CPx_Y2WxpVd8Wcvd9BYIKQB90NSmnkJWa6fUOnzb4qVGxeM1FFKuVn7CBQ-79xUZ37A8Zwtp9jFTkLn5E4XKtUBCVYbfniqx4MVYJdNfSrKUHtnbaKiWju8JhFq1436MLy3GMu_UauYPxWVY7oBw6qofVpYkltmrU8OcuP1mufCoWiW5AfHfkPiRrQkb1ahyriLjGCXveNoOP1-b4x8UlYEKdseLqZP8xIZKdizeHCcMgPCt3RSAEyLQl6bw"/>
+<div>
+<div class="font-body-lg text-body-lg text-on-surface font-semibold">Xin chào!</div>
+<div class="font-body-md text-body-md text-on-surface-variant">Hôm nay bạn thế nào?</div>
+</div>
+</div>
+<div class="flex flex-col gap-sm flex-grow">
+<button class="flex items-center gap-md px-4 py-3 bg-secondary-container text-on-secondary-container font-bold rounded-xl transition-all active:translate-x-1">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">supervised_user_circle</span>
+<span class="font-body-lg text-body-lg">Chế độ Ba mẹ</span>
+</button>
+<button class="flex items-center gap-md px-4 py-3 text-on-surface-variant hover:bg-surface-variant rounded-xl transition-all active:translate-x-1">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">child_care</span>
+<span class="font-body-lg text-body-lg">Chế độ Con</span>
+</button>
+<button class="flex items-center gap-md px-4 py-3 text-on-surface-variant hover:bg-surface-variant rounded-xl transition-all active:translate-x-1">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">explore</span>
+<span class="font-body-lg text-body-lg">Khám phá</span>
+</button>
+<button class="flex items-center gap-md px-4 py-3 text-on-surface-variant hover:bg-surface-variant rounded-xl transition-all active:translate-x-1">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">groups</span>
+<span class="font-body-lg text-body-lg">Cộng đồng</span>
+</button>
+<button class="flex items-center gap-md px-4 py-3 text-on-surface-variant hover:bg-surface-variant rounded-xl transition-all active:translate-x-1">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">help</span>
+<span class="font-body-lg text-body-lg">Hỗ trợ</span>
+</button>
+</div>
+<div class="mt-auto pt-md border-t border-outline-variant">
+<button class="w-full h-[48px] bg-primary text-on-primary font-button-text text-button-text rounded-[16px] shadow-sm hover:shadow-md transition-shadow flex justify-center items-center gap-sm">
+                Đổi chế độ
+                <span class="material-symbols-outlined text-sm">swap_horiz</span>
+</button>
+</div>
+</nav>
+<!-- Main Canvas -->
+<main class="flex-grow flex flex-col h-[calc(100vh-64px)] md:h-screen relative bg-[#FFFBF5]">
+<!-- Scrollable Content Area -->
+<div class="flex-grow overflow-y-auto hide-scroll pb-32 pt-md px-container-margin md:px-xl md:max-w-3xl md:mx-auto w-full relative">
+<!-- Context Header (Desktop only - aligns with back button intent) -->
+<div class="hidden md:flex items-center gap-sm mb-lg">
+<button class="p-2 text-on-surface-variant hover:bg-surface-variant rounded-full transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">arrow_back</span>
+</button>
+<h1 class="font-question-lg text-question-lg text-on-surface">Cùng con giải quyết</h1>
+</div>
+<!-- Situation Card -->
+<div class="bg-surface-container-lowest rounded-[20px] p-card-padding shadow-[0_4px_16px_rgba(0,0,0,0.06)] border border-outline-variant/30 mb-lg flex flex-col md:flex-row gap-md items-start">
+<div class="bg-tertiary-fixed w-12 h-12 rounded-full flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">psychology</span>
+</div>
+<div>
+<h2 class="font-button-text text-button-text text-primary mb-xs">Tình huống hiện tại</h2>
+<p class="font-body-md text-body-md text-on-surface">
+                        Con vừa đi học về, quăng cặp xuống ghế và đóng sầm cửa phòng. Ba mẹ gọi nhưng con không trả lời, chỉ nói vọng ra "Con không muốn nói chuyện!".
+                    </p>
+<div class="mt-sm flex gap-2 flex-wrap">
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant font-label-caps text-label-caps rounded-full">GIAO TIẾP</span>
+<span class="px-3 py-1 bg-error-container text-on-error-container font-label-caps text-label-caps rounded-full">CẢM XÚC TIÊU CỰC</span>
+</div>
+</div>
+</div>
+<!-- Chat Area -->
+<div class="flex flex-col gap-lg">
+<!-- AI Message -->
+<div class="flex gap-md w-full max-w-[85%]">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed shrink-0 flex items-center justify-center border-2 border-surface-bright shadow-sm relative overflow-hidden">
+<img alt="AI Mentor" class="w-full h-full object-cover" data-alt="A friendly, stylized 3D avatar of a helpful robotic mentor or friendly animal guide. The rendering is soft, utilizing pastel colors like light blue and warm cream. The lighting is gentle, creating an approachable and safe aesthetic suitable for an AI coaching assistant." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKkDih0AfpN-36pWKt_4hjcWLx_cpxdmrPrW1HP-FMXoz1DVTjvoHAy_ASwja0zixTzYUAlaDZTZHY_8JYE0O7k_4_zb1DaCCXyckoHpVvRY7M_FAT9996nnopNhS47ldCbgH0LJoaVmcE5RZ6ySRISZSpPNgH4-vMQroGLPxMEcdc6Z6AWLsOsXhzxa_p8XRTTT5YNkkc1jok-jngzfGfd1YQ_SPQa2p0xfGene98ehTvD9f5PP9nHqSFUzTGura_qk6pVKnU1es"/>
+</div>
+<div class="flex flex-col gap-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant ml-1">TRỢ LÝ TÂM LÝ</span>
+<div class="bg-surface-container-lowest p-md rounded-[16px] chat-bubble-ai shadow-[0_4px_16px_rgba(0,0,0,0.06)] border border-outline-variant/20">
+<p class="font-body-md text-body-md text-on-surface mb-sm">
+                                Chào ba mẹ, có vẻ như con đang trải qua một cảm xúc khá mạnh. Phản ứng đóng sầm cửa thường là cách các bạn nhỏ tạo "rào chắn" khi chưa biết cách xử lý cảm xúc bên trong.
+                            </p>
+<p class="font-body-md text-body-md text-on-surface font-semibold">
+                                Theo trực giác của ba mẹ, điều gì có thể đã xảy ra ở trường khiến con bực tức như vậy?
+                            </p>
+</div>
+</div>
+</div>
+<!-- User Message -->
+<div class="flex gap-md w-full max-w-[85%] self-end flex-row-reverse">
+<div class="w-10 h-10 rounded-full bg-surface-variant shrink-0 flex items-center justify-center overflow-hidden border-2 border-surface-bright shadow-sm">
+<img alt="Parent" class="w-full h-full object-cover" data-alt="A close-up portrait of a friendly, smiling parent in a bright, natural setting. The lighting is soft and warm, complementing the app's modern, cream-based aesthetic. They wear casual, approachable clothing, evoking a sense of safety and connection." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXW6_SwjOFXVO1IvWu6L5tdJq8gGeMLTUlTS_qxvFmZg7BYn08NckXWKFOXnzzlFmaTaVJg2BSqVIC-LuYx8VUVgPNsvAaF2hvnzv0b8K3uvDDbS6IhMp8px_l1e3G5Bti70r9aCP1CGsQj07PKk6xymk7lJrX0w55BWigJua0zpWTZuWo37MM5FmMgfJChBI4FHqkbGCkgGOkYrEnayVGSHTsiggjilkIgftudF5M889erWahDZJey1Wx2VHRXV0ozjdo7C06Qqc"/>
+</div>
+<div class="flex flex-col gap-xs items-end">
+<span class="font-label-caps text-label-caps text-on-surface-variant mr-1">BA MẸ</span>
+<div class="bg-primary-container p-md rounded-[16px] chat-bubble-user shadow-sm">
+<p class="font-body-md text-body-md text-on-primary-container">
+                                Mình nghĩ có thể con bị điểm kém hoặc cãi nhau với bạn thân. Sáng nay con vẫn vui vẻ mang theo món đồ chơi mới để khoe với bạn.
+                            </p>
+</div>
+</div>
+</div>
+<!-- AI Message -->
+<div class="flex gap-md w-full max-w-[85%]">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed shrink-0 flex items-center justify-center border-2 border-surface-bright shadow-sm relative overflow-hidden">
+<img alt="AI Mentor" class="w-full h-full object-cover" data-alt="A friendly, stylized 3D avatar of a helpful robotic mentor or friendly animal guide. The rendering is soft, utilizing pastel colors like light blue and warm cream. The lighting is gentle, creating an approachable and safe aesthetic suitable for an AI coaching assistant." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYjPv42batvgrcId5M9T2x0WMsDxFmld_yY0ZzCaWzTp1lXvi11u7ef9khh8pMBm3-aPre93mJ_lQVHyD7fEOSB0wDdBU9fwpxIGUn0OZOh4r4Crsj6OU7oVxw3Ll-FmBRhjccessqI8OltDo5677AeYbMRx-C46hnQrgfDtJgnuVhT5FRu4_vBZy_OocPNGlceRQOCH08Ovb-nuou2M1OhR8jLn774gMQYeq1B-NpXY-qDtVxCt5RkfRqiTA0kSgDNosUbqRsqw4"/>
+</div>
+<div class="flex flex-col gap-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant ml-1">TRỢ LÝ TÂM LÝ</span>
+<div class="bg-surface-container-lowest p-md rounded-[16px] chat-bubble-ai shadow-[0_4px_16px_rgba(0,0,0,0.06)] border border-outline-variant/20">
+<p class="font-body-md text-body-md text-on-surface mb-sm">
+                                Chi tiết món đồ chơi mới rất đáng chú ý! Sự đối lập giữa buổi sáng vui vẻ và buổi chiều bực tức cho thấy có sự kiện cụ thể đã kích hoạt cảm xúc này.
+                            </p>
+<p class="font-body-md text-body-md text-on-surface font-semibold mb-sm">
+                                Thay vì gõ cửa và hỏi thẳng "Tại sao con giận?", ba mẹ có thể thử một cách tiếp cận nhẹ nhàng hơn. Ba mẹ muốn thử cách nào dưới đây?
+                            </p>
+<!-- Suggestion Chips -->
+<div class="flex flex-col gap-2 mt-sm">
+<button class="text-left p-3 rounded-xl border border-outline-variant hover:border-primary hover:bg-primary-container/10 transition-colors bg-surface-bright flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 0;">water_drop</span>
+<span class="font-body-md text-body-md text-on-surface">Pha một ly nước mát mang vào và ngồi im lặng cạnh con.</span>
+</button>
+<button class="text-left p-3 rounded-xl border border-outline-variant hover:border-primary hover:bg-primary-container/10 transition-colors bg-surface-bright flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 0;">edit_note</span>
+<span class="font-body-md text-body-md text-on-surface">Viết một mẩu giấy note nhỏ trượt dưới khe cửa cho con.</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Typing Indicator (Decorative) -->
+<div class="flex gap-md w-full max-w-[85%] self-end flex-row-reverse opacity-0 animate-pulse" id="typing-indicator" style="animation-duration: 2s;">
+<div class="w-10 h-10 rounded-full bg-surface-variant shrink-0 flex items-center justify-center"></div>
+<div class="bg-surface-container p-sm rounded-[16px] chat-bubble-user flex items-center gap-1 px-4">
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sticky Input Area -->
+<div class="absolute bottom-0 left-0 w-full bg-surface-bright/90 backdrop-blur-md border-t border-outline-variant/30 px-container-margin py-md md:px-xl md:py-lg pb-safe flex justify-center z-30">
+<div class="w-full max-w-3xl flex gap-sm items-end relative">
+<div class="flex-grow relative">
+<textarea class="w-full bg-[#FFFFFF] border border-[#E6E6ED] rounded-[12px] p-[16px] pr-12 focus:border-primary focus:ring-1 focus:ring-primary font-body-md text-body-md text-on-surface resize-none hide-scroll shadow-sm" oninput="this.style.height = ''; this.style.height = Math.min(this.scrollHeight, 120) + 'px'" placeholder="Nhập câu trả lời của ba mẹ..." rows="1" style="min-height: 52px; max-height: 120px;"></textarea>
+<button class="absolute right-3 bottom-3 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">mic</span>
+</button>
+</div>
+<button class="h-[52px] px-lg bg-primary text-on-primary font-button-text text-button-text rounded-[16px] shadow-sm hover:shadow-md hover:bg-surface-tint transition-all active:scale-95 flex items-center justify-center shrink-0">
+                    Gửi
+                    <span class="material-symbols-outlined ml-xs text-sm" style="font-variation-settings: 'FILL' 1;">send</span>
+</button>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-2 pb-safe bg-surface-container-lowest border-t border-outline-variant shadow-[0_-4px_16px_rgba(0,0,0,0.04)] rounded-t-xl">
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:opacity-80 active:scale-90 transition-transform w-16">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">home</span>
+<span class="font-label-caps text-label-caps">Trang chủ</span>
+</button>
+<button class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-full px-4 py-1 hover:opacity-80 active:scale-90 transition-transform">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">explore</span>
+<span class="font-label-caps text-label-caps">Khám phá</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:opacity-80 active:scale-90 transition-transform w-16">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">groups</span>
+<span class="font-label-caps text-label-caps">Cộng đồng</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:opacity-80 active:scale-90 transition-transform w-16">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">person</span>
+<span class="font-label-caps text-label-caps">Cá nhân</span>
+</button>
+</nav>
+<!-- Spacer for mobile bottom nav -->
+<div class="h-[72px] md:hidden shrink-0"></div>
+<script>
+        // Simple script to handle textarea height and show typing indicator on click
+        document.querySelector('button.bg-primary.h-\\[52px\\]').addEventListener('click', function() {
+            const textarea = document.querySelector('textarea');
+            if(textarea.value.trim() !== '') {
+                textarea.value = '';
+                textarea.style.height = '52px';
+                const indicator = document.getElementById('typing-indicator');
+                indicator.style.opacity = '1';
+                setTimeout(() => {
+                    indicator.style.opacity = '0';
+                }, 2000);
+            }
+        });
+    </script>
+</body></html>
