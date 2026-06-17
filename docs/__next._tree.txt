@@ -1,0 +1,9 @@
+:HL["/Bamevacon/_next/static/chunks/3-9n0rdjpp-n9.css","style"]
+:HL["/Bamevacon/_next/static/media/0781808e3393dbfb-s.p.3uuzd4ky6sm1t.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Bamevacon/_next/static/media/3c285486269019b7-s.p.2g-0we2o5_ngd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Bamevacon/_next/static/media/4a7551bcc3548e67-s.p.3jc5sq-923m_s.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Bamevacon/_next/static/media/53e45098eac42afb-s.p.1uklb5el4zgvl.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Bamevacon/_next/static/media/8f46d218c8f79e34-s.p.2wu4yy186g04j.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Bamevacon/_next/static/media/a3bcb02a0e9e5d11-s.p.25pbmqxk8u2s7.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"Ob6NQXi6VA8zifytYub0i"}

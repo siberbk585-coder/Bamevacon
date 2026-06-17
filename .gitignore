@@ -1,3 +1,5 @@
 .DS_Store
 .cursor/
 *.zip
+web/out/
+web/.next/

@@ -1,9 +1,15 @@
 import { notFound } from "next/navigation";
 import { SessionFlow } from "@/components/SessionFlow";
-import { getContentPack } from "@/lib/content";
+import { getAvailableSessions, getContentPack } from "@/lib/content";
 
 interface SessionPageProps {
   params: Promise<{ buoi: string }>;
+}
+
+export function generateStaticParams() {
+  return getAvailableSessions().map((buoi) => ({
+    buoi: String(buoi),
+  }));
 }
 
 export default async function SessionPage({ params }: SessionPageProps) {
